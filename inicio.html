@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apuestas Web</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="img/apuestas-deportivas.png" alt="Logotipo">
+        <h1>Apuestas Web</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a id="user-actual" href="#"></a>
+            </li>
+            <li>
+                    <a onclick="cerrarSession()">Cerrar Sessión</a>
+                </li>
+        </ul>
+    </nav>
+    <main>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Dirección web</th>
+                    <th>Nit</th>
+                    <th>Operador</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="cargar-apuestas-inicio">
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <a href="#">Apuestas web</a>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
